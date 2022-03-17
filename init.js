@@ -1,3 +1,7 @@
 (function () {
-    console.log("It's working!")
+    const overwold = new Overworld({
+        element: document.querySelector(".game-container")
+    });
+    overwold.init();
+
 })();
